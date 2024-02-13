@@ -24,7 +24,7 @@ except ImportError:
     pass
 
 try:
-    _require_pytorch_version('1.4.0', '2.0.0')
+    _require_pytorch_version('1.4.0', '3.0.0')
     _found_pytorch = True
 except ImportError:
     pass

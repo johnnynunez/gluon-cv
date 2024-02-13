@@ -23,7 +23,7 @@ def _require_mxnet_version(mx_version, max_mx_version='2.0.0'):
             "please refer to https://gluon-cv.mxnet.io/#installation for details.".format(
                 max_mx_version)) from ex
 
-def _require_pytorch_version(torch_version, max_torch_version='2.0.0'):
+def _require_pytorch_version(torch_version, max_torch_version='3.0.0'):
     try:
         import torch
         from distutils.version import LooseVersion
